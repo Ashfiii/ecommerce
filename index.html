@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>E-Commerce Layout</title>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row border">
+            <div class="col-lg-4 col-md-4 col-sm-4"><span><i class="fa fa-shopping-cart"
+                        aria-hidden="true"></i></span>FREE SHIPPING ON ALL ORDER</div>
+            <div class="col-lg-4 col-md-4 col-sm-4"><span><i class="fa fa-money" aria-hidden="true"></i></span>100%
+                MONEY BACK GUARANTEE</div>
+            <div class="col-lg-4 col-md-4 col-sm-4"><span><i class="fa fa-clock-o" aria-hidden="true"></i></span>ONLINE
+                SUPPORT 24/7</div>
+        </div>
+        <div class="row header">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4 mysearch">
+                <form>
+                    <input type="text" id="input1" placeholder="Search">
+                    <button type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+            </div>
+            <div class="col-lg-4">
+                <ul class="social-media">
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top nav-pd">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav navbar-link">
+                <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">SHOP</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">FEATURES</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">MEGAGROUP</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <a class="navbar-nav navbar-link cart" href='#'><i class="fa fa-shopping-cart"
+                aria-hidden="true"></i>CART(0)</a>
+    </nav>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/110818_StartUpImage.jpg" alt="Los Angeles" width="100%" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="images/GettyImages-1002114190.jpg" alt="Chicago" width="100%" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="images/BeyondRetro.jpg" alt="New York" width="100%" height="500">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <div class="container quicklink">
+        <span class="quickgo">Go quickly to -></span>
+        <span><a href="#">Women</a></span> <span> : </span>
+        <span><a href="#">Men</a></span> <span> : </span>
+        <span><a href="#">Accessories</a></span> <span> : </span>
+        <span><a href="#">Fashion</a></span> <span> : </span>
+        <span><a href="#">Features</a></span> <span> : </span>
+        <span><a href="#">Clothings</a></span> <span> : </span>
+        <span><a href="#">Bags&Wallets</a></span> <span> : </span>
+        <span><a href="#">Fragrances</a></span> <span> : </span>
+        <span><a href="#">Caps&Hats</a></span>
+    </div>
+
+    <div class="container">
+        <div class="row items">
+            <div class="col-lg-4 posrel">
+                <img src="images/photo-1512436991641-6745cdb1723f.jpg" width="100%">
+                <div class="action">
+                    <div class="title">CLOTHES</div>
+                    <button class="button" onclick="">Click Here</button>
+                </div>
+
+            </div>
+            <div class="col-lg-4 posrel">
+                <img src="images/111.jpg" width="100%">
+                <div class="action">
+                    <div class="title">HAND BAGS</div>
+                    <button class="button" onclick="">Click Here</button>
+                </div>
+            </div>
+            <div class="col-lg-4 posrel">
+                <img src="images/112 .jpg" width="100%">
+                <div class="action">
+                    <div class="title">FOOTWEAR</div>
+                    <button class="button" onclick="">Click Here</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="title">
+        <div class="container">
+            <p>MEN</p>
+            <div class="row">
+                <div class="col-lg-6 posrel-1">
+                    <img src="images/formen 1.jpg" width="100%">
+                    <div class="inner-title">
+                        <div class="heading">FOR MEN</div>
+                        <button class="button" onclick="">More</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-6 abc">
+                            <img class="photo" src="images/jeans.jpg" width="100%" height="66%">
+                            <div class="panel panel-default">
+                                <div class="panel-body my-panel">
+                                    <h3 class="title">Printed Chiffon Dress</h3>
+                                    <span class="price">$26.56</span>
+                                    <span><button class="button" onclick="">Add to Cart</button></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 xyz">
+                            <img class="photo" src="images/jeans.jpg" width="100%" height="66%">
+                            <div class="panel panel-default">
+                                <div class="panel-body my-panel">
+                                    <h3 class="title">Printed Chiffon Dress</h3>
+                                    <span class="price">$26.56</span>
+                                    <span><button class="button" onclick="">Add to Cart</button></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="title">
+        <div class="container">
+            <p>WOMEN</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row ">
+                        <div class="col-lg-6 pad-w">
+                            <img src="images/jeans.jpg" width="100%" height="66%">
+                            <div class="panel panel-default">
+                                <div class="panel-body my-panel">
+                                    <h3>Printed Chiffon Dress</h3>
+                                    <span>$26.56</span>
+                                    <span><button class="button" onclick="">Add to Cart</button></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="images/jeans1.jpg" width="100%" height="66%">
+                            <div class="panel panel-default">
+                                <div class="panel-body my-panel">
+                                    <h3>Printed Chiffon Dress</h3>
+                                    <span>$26.56</span>
+                                    <span><button class="button" onclick="">Add to Cart</button></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="images/formen 1.jpg" width="100%">
+                    <div class="inner-title pad-b">
+                        <div class="heading">FOR WOMEN</div>
+                        <button class="button" onclick="">Click Here</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row pad-y">
+            <div class="col-lg-4">
+                <h3>NEW ARRIVALS</h3>
+            </div>
+            <div class="col-lg-4">
+                <h3>BEST SELLERS </h3>
+            </div>
+            <div class="col-lg-4">
+                <h3>POPULAR</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row item">
+            <div class="col-lg-3">
+                <img src="images/jeans.jpg" width="100%" height="70%">
+                <div class="panel panel-default">
+                    <div class="panel-body my-panel">
+                        <h3>Printed Chiffon Dress</h3>
+                        <span>$26.56</span>
+                        <span><button class="button" onclick="">Add to Cart</button></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <img src="images/jeans1.jpg" width="100%" height="70%">
+                <div class="panel panel-default">
+                    <div class="panel-body my-panel">
+                        <h3>Printed Chiffon Dress</h3>
+                        <span>$26.56</span>
+                        <span><button class="button" onclick="">Add to Cart</button></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <img src="images/jeans1.jpg" width="100%" height="70%">
+                <div class="panel panel-default">
+                    <div class="panel-body my-panel">
+                        <h3>Printed Chiffon Dress</h3>
+                        <span>$26.56</span>
+                        <span><button class="button" onclick="">Add to Cart</button></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <img src="images/jeans1.jpg" width="100%" height="70%">
+                <div class="panel panel-default">
+                    <div class="panel-body my-panel">
+                        <h3>Printed Chiffon Dress</h3>
+                        <span>$26.56</span>
+                        <span><button class="button" onclick="">Add to Cart</button></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="title border-b">
+        <div class="container">
+            <p>FROM THE BLOG</p>
+
+            <div class="row row-default">
+                <div class="col-lg-4 pad-w">
+                    <div class="posrel-2">
+                        <img src="images/jeans.jpg" width="100%">
+                        <div class="inner-title-1">
+                            <span class="title"><span>02</span><br><span>FEB</span></span>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-body my-panel">
+                            <h2>Printed Chiffon Dress</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium id voluptate fuga
+                                sunt quibusdam temporibus nam, ipsam exercitationem.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="posrel-2">
+                        <img src="images/jeans1.jpg" width="100%">
+                        <div class="inner-title-1">
+                            <span class="title"><span>02</span><br><span>FEB</span></span>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-body my-panel">
+                            <h2>Printed Chiffon Dress</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium id voluptate fuga
+                                sunt quibusdam temporibus nam, ipsam exercitationem.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="posrel-2">
+                        <img src="images/jeans.jpg" width="100%">
+                        <div class="inner-title-1">
+                            <span class="title"><span>02</span><br><span>FEB</span></span>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-body my-panel">
+                            <h2>Printed Chiffon Dress</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium id voluptate fuga
+                                sunt quibusdam temporibus nam, ipsam exercitationem.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="title">
+                        <h2>COLLECTION</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptates nihil nulla
+                            deleniti dolorum!</p>
+                    </div>
+                </div>
+                <div class="col-lg-9 shadow">
+                    <div class="surround">
+                        <div class="surround-b">
+                            <span>SIGN UP FOR OUR NEWSLETTER !</span>
+                            <form class="fl-r">
+                                <input type="text" id="input" placeholder="abc@gidxb.com">
+                                <button class="button">SUBMIT</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row margin-b footer-items">
+                        <div class="col-lg-4">
+                            <h1>INFORMATION</h1>
+                            <ul>
+                                <li>Careers</li>
+                                <li>Investor Relations</li>
+                                <li>Press Releases</li>
+                                <li>Shop With Points</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h1>CUSTOMER CARE</h1>
+                            <ul>
+                                <li>Returns</li>
+                                <li>Shipping Info</li>
+                                <li>Gift Cards</li>
+                                <li>Size Guide</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h1>STORE INFORMATION</h1>
+                            <ul class="list-n">
+                                <li><i class="fa fa-map-marker" aria-hidden="true"></i>cincnondc</li>
+                                <li><i class="fa fa-envelope" aria-hidden="true"></i>demo@xyz.com</li>
+                                <li><i class="fa fa-phone" aria-hidden="true"></i>+91-92776738227</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
